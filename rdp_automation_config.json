@@ -1,0 +1,151 @@
+{
+  "fees_search_token": "KFB",
+  "fees_bad_prefixes": "SVRAGS;SVR-AGS;Skrags;SV RAGS",
+  "fees_overlay_skip_waits": false,
+  "fees_file_search_region": [
+    0.1,
+    0.08,
+    0.25,
+    0.05
+  ],
+  "fees_seiten_region": [
+    0.08,
+    0.84,
+    0.84,
+    0.12
+  ],
+  "fees_pages_max_clicks": 12,
+  "fees_csv_path": "fees_results.csv",
+  "rdp_title_regex": ".* - Remote Desktop Connection",
+  "excel_path": "C:/Users/salbahaca/Downloads/P-Akten zur Bearbeitung.xlsx",
+  "excel_sheet": "Sheet2",
+  "input_column": "AZ Cleaned",
+  "results_csv": "rdp_results.csv",
+  "tesseract_path": "C:/Users/salbahaca/AppData/Local/Programs/Tesseract-OCR/tesseract.exe",
+  "tesseract_lang": "deu+eng",
+  "type_delay": 0.02,
+  "post_search_wait": 3.5,
+  "search_point": [
+    0.20745798319327732,
+    0.17732558139534885
+  ],
+  "result_region": [
+    0.8298319327731093,
+    0.19186046511627908,
+    0.15073529411764705,
+    0.06492248062015504
+  ],
+  "start_cell": "B2",
+  "max_rows": 0,
+  "line_band_px": 40,
+  "picked_line_rel_y": null,
+  "typing_test_text": "TEST123",
+  "line_offset_px": 0,
+  "upscale_x": 4,
+  "color_ocr": true,
+  "auto_green": true,
+  "use_full_region_parse": true,
+  "keyword": "Honorar",
+  "normalize_ocr": true,
+  "amount_profiles": [
+    {
+      "name": "Rechnungen",
+      "keyword": "",
+      "sub_region": [
+        0.0,
+        1.1875,
+        1.0,
+        0.0125
+      ]
+    }
+  ],
+  "active_amount_profile": "Rechnungen",
+  "use_amount_profile": false,
+  "doclist_region": [
+    0.11869747899159663,
+    0.626937984496124,
+    0.8686974789915967,
+    0.312015503875969
+  ],
+  "pdf_search_point": [
+    0.5740546218487395,
+    0.6831395348837209
+  ],
+  "pdf_hits_point": [
+    0.026785714285714284,
+    0.14437984496124032
+  ],
+  "pdf_hits_second_point": [
+    0.023109243697478993,
+    0.22577519379844962
+  ],
+  "pdf_hits_third_point": [
+    0.02415966386554622,
+    0.29844961240310075
+  ],
+  "pdf_text_region": [
+    0.34086134453781514,
+    0.05813953488372093,
+    0.37342436974789917,
+    0.8391472868217055
+  ],
+  "includes": "Urt,SWB,SW,SWBs,Prot",
+  "excludes": "SaM,KLE,Anlage,SaGS,SvM,KLE,KAA,GS,Anhang,BGH, KAA GS, KFB, KAAGS",
+  "exclude_prefix_k": true,
+  "streitwert_term": "Streitwert",
+  "streitwert_results_csv": "streitwert_results2.csv",
+  "doc_open_wait": 3.0,
+  "pdf_hit_wait": 2.0,
+  "pdf_view_extra_wait": 0.0,
+  "doc_view_point": [
+    0.28256302521008403,
+    0.6812015503875969
+  ],
+  "pdf_close_point": [
+    0.9915966386554622,
+    -0.02422480620155039
+  ],
+  "akten_document_filter_region": [
+    0.3224789915966387,
+    0.7383720930232558,
+    0.1323529411764706,
+    0.003875968992248062
+  ],
+  "akten_search_term": "Aufforderungsschreiben",
+  "akten_ignore_tokens": "",
+  "streitwert_overlay_skip_waits": false,
+  "ignore_top_doc_row": false,
+  "rechnungen_region": [
+    0.8314075630252101,
+    0.18895348837209303,
+    0.1486344537815126,
+    0.07073643410852713
+  ],
+  "rechnungen_results_csv": "Streitwert_Results_Rechnungen.csv",
+  "rechnungen_only_results_csv": "rechnungen_only_results.csv",
+  "rechnungen_gg_region": [
+    0.12605042016806722,
+    0.6734496124031008,
+    0.8571428571428571,
+    0.25872093023255816
+  ],
+  "rechnungen_gg_results_csv": "rechnungen_gg_results.csv",
+  "rechnungen_search_wait": 10.0,
+  "rechnungen_region_wait": 9.0,
+  "rechnungen_overlay_skip_waits": false,
+  "log_folder": "log",
+  "log_extract_results_csv": "streitwert_log_extract.csv",
+  "instance_region": [
+    0.5598739495798319,
+    0.2180232558139535,
+    0.12867647058823528,
+    0.041666666666666664
+  ],
+  "instance_row_rel_top": 0.45,
+  "pdf_hits_region": [
+    0.008928571428571428,
+    0.12693798449612403,
+    0.03413865546218487,
+    0.035852713178294575
+  ]
+}

@@ -1,0 +1,18 @@
+[project]
+name = "datev-ocr-ai"
+version = "0.1.0"
+description = "Automation helpers for the Datev OCR workflows."
+readme = "README.md"
+authors = [
+    { name = "albieu0410-tech", email = "albieu0410@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["datev_ocr*"]
