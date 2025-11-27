@@ -3,4 +3,5 @@ pyproject.toml
 datev_ocr_ai.egg-info/PKG-INFO
 datev_ocr_ai.egg-info/SOURCES.txt
 datev_ocr_ai.egg-info/dependency_links.txt
+datev_ocr_ai.egg-info/requires.txt
 datev_ocr_ai.egg-info/top_level.txt

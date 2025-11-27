@@ -5,3 +5,13 @@ Summary: Automation helpers for the Datev OCR workflows.
 Author-email: albieu0410-tech <albieu0410@gmail.com>
 Requires-Python: >=3.10
 Description-Content-Type: text/markdown
+Requires-Dist: mss
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: Pillow
+Requires-Dist: paddleocr
+Requires-Dist: pandas
+Requires-Dist: pyautogui
+Requires-Dist: PyQt6
+Requires-Dist: pytesseract
+Requires-Dist: pywinauto
